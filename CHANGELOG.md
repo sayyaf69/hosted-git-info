@@ -1,8 +1,184 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+## [10.1.1](https://github.com/npm/hosted-git-info/compare/v10.1.0...v10.1.1) (2026-05-18)
+### Bug Fixes
+* [`935947a`](https://github.com/npm/hosted-git-info/commit/935947aba8634eabd16cf9803642d2bdac95c6d7) [#337](https://github.com/npm/hosted-git-info/pull/337) correct typo gitSpecifer -> gitSpecifier in README (Pete Ross)
+### Chores
+* [`7d2d31f`](https://github.com/npm/hosted-git-info/commit/7d2d31ff44115380ca9c08a3cdcd8f4659184115) [#336](https://github.com/npm/hosted-git-info/pull/336) postinstall for dependabot template-oss PR (@npm-cli-bot)
+* [`84401d8`](https://github.com/npm/hosted-git-info/commit/84401d8384ad5606193619f9709909f03c003bed) [#336](https://github.com/npm/hosted-git-info/pull/336) bump @npmcli/template-oss from 5.0.0 to 5.1.0 (@dependabot[bot])
 
-<a name="4.0.0"></a>
+## [10.1.0](https://github.com/npm/hosted-git-info/compare/v10.0.0...v10.1.0) (2026-05-11)
+### Features
+* [`5a2b44d`](https://github.com/npm/hosted-git-info/commit/5a2b44d74f24b43662926909be2f5120746aa80d) [#334](https://github.com/npm/hosted-git-info/pull/334) drop `url` dependency (#334) (@fregante)
+
+## [10.0.0](https://github.com/npm/hosted-git-info/compare/v9.0.3...v10.0.0) (2026-05-08)
+### ⚠️ BREAKING CHANGES
+* `hosted-git-info` now supports node `^22.22.2 || ^24.15.0 || >=26.0.0`
+* template-oss-apply
+### Features
+* [`12c898d`](https://github.com/npm/hosted-git-info/commit/12c898de6550c1cd7f96d5a2e72d2e0ba3f23bca) [#332](https://github.com/npm/hosted-git-info/pull/332) bump to new node engine range (@owlstronaut)
+* [`f9f3550`](https://github.com/npm/hosted-git-info/commit/f9f3550e07c2e8a1476344329c3eea70b4c3c0d5) [#332](https://github.com/npm/hosted-git-info/pull/332) template-oss-apply (@owlstronaut)
+### Chores
+* [`0feb6fa`](https://github.com/npm/hosted-git-info/commit/0feb6fa27268c86ae0eb0f128715eed549f2168f) [#332](https://github.com/npm/hosted-git-info/pull/332) template-oss-apply (@owlstronaut)
+
+## [9.0.3](https://github.com/npm/hosted-git-info/compare/v9.0.2...v9.0.3) (2026-05-01)
+### Bug Fixes
+* [`ac3c890`](https://github.com/npm/hosted-git-info/commit/ac3c8903fc7e00a55f61e0f50ebc223ccc96f124) [#327](https://github.com/npm/hosted-git-info/pull/327) use GitLab API v4 endpoint for tarball URLs (@304)
+* [`eca53e7`](https://github.com/npm/hosted-git-info/commit/eca53e78fa7fe9f4105222d5811503df685ef28c) [#326](https://github.com/npm/hosted-git-info/pull/326) remove .git suffix from Sourcehut https URLs (#326) (@yetval)
+### Chores
+* [`4c8d2d4`](https://github.com/npm/hosted-git-info/commit/4c8d2d49764481e1e04e00c4ffb4dcc2598b605e) [#329](https://github.com/npm/hosted-git-info/pull/329) template-oss-apply (@owlstronaut)
+* [`c816377`](https://github.com/npm/hosted-git-info/commit/c816377ad982367ab212de32d3215a24cb21f9ba) [#329](https://github.com/npm/hosted-git-info/pull/329) `@npmcli/template-oss@4.30.0` (@owlstronaut)
+* [`4862744`](https://github.com/npm/hosted-git-info/commit/486274464b81ee0c7d133929a2d693a452157788) [#324](https://github.com/npm/hosted-git-info/pull/324) explicit sha-1 and sha-256 git committish tests (#324) (@wraithgar)
+* [`8a1b486`](https://github.com/npm/hosted-git-info/commit/8a1b4862fdc873a34fec08e061690b6886c03b2a) [#322](https://github.com/npm/hosted-git-info/pull/322) remove tap (@owlstronaut)
+* [`e88c758`](https://github.com/npm/hosted-git-info/commit/e88c7580b4ceeb56076342bd9368d62087edf9f1) [#322](https://github.com/npm/hosted-git-info/pull/322) swap from tap to built-in node:test (@owlstronaut)
+* [`d542a55`](https://github.com/npm/hosted-git-info/commit/d542a55a81c9e67afe8cce6b791da040399b4318) [#319](https://github.com/npm/hosted-git-info/pull/319) bump @npmcli/eslint-config from 5.1.0 to 6.0.0 (#319) (@dependabot[bot])
+* [`0cd1a4d`](https://github.com/npm/hosted-git-info/commit/0cd1a4dff0914f1779ecd368562d1ce749ec307c) [#321](https://github.com/npm/hosted-git-info/pull/321) bump @npmcli/template-oss from 4.28.0 to 4.28.1 (#321) (@dependabot[bot], @npm-cli-bot)
+
+## [9.0.2](https://github.com/npm/hosted-git-info/compare/v9.0.1...v9.0.2) (2025-10-08)
+### Bug Fixes
+* [`c91490e`](https://github.com/npm/hosted-git-info/commit/c91490e162b3226c09b7337b54649988f741fa9c) [#314](https://github.com/npm/hosted-git-info/pull/314) correctProtocol misparsing protocol (#314) (@markovejnovic)
+
+## [9.0.1](https://github.com/npm/hosted-git-info/compare/v9.0.0...v9.0.1) (2025-10-07)
+### Bug Fixes
+* [`bf29151`](https://github.com/npm/hosted-git-info/commit/bf291511cdcefba273d16df4b4fdc22edec47139) [#312](https://github.com/npm/hosted-git-info/pull/312) remove redundant httpstemplate (#312) (@markovejnovic)
+### Chores
+* [`6525ea6`](https://github.com/npm/hosted-git-info/commit/6525ea64373032e840df77b9764b69f2d3682d19) [#311](https://github.com/npm/hosted-git-info/pull/311) stop backport branch updates (#311) (@owlstronaut)
+* [`97fef20`](https://github.com/npm/hosted-git-info/commit/97fef208f7b6663f21d1069654f60abea695f368) [#308](https://github.com/npm/hosted-git-info/pull/308) bump @npmcli/template-oss from 4.25.0 to 4.25.1 (#308) (@dependabot[bot], @npm-cli-bot)
+
+## [9.0.0](https://github.com/npm/hosted-git-info/compare/v8.1.0...v9.0.0) (2025-07-24)
+### ⚠️ BREAKING CHANGES
+* `hosted-git-info` now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`f5d971c`](https://github.com/npm/hosted-git-info/commit/f5d971c6e21de4c7d533fbfe7c0f4db33c1c10a4) [#305](https://github.com/npm/hosted-git-info/pull/305) align to npm 11 node engine range (@owlstronaut)
+### Dependencies
+* [`7a9c71e`](https://github.com/npm/hosted-git-info/commit/7a9c71ec56c588ed938dcfbc700eb56bcd20d14d) [#305](https://github.com/npm/hosted-git-info/pull/305) `lru-cache@11.1.0`
+### Chores
+* [`a0e07cd`](https://github.com/npm/hosted-git-info/commit/a0e07cd0b8cfd51907acac8a13caf426f690a4f6) [#302](https://github.com/npm/hosted-git-info/pull/302) bump @npmcli/template-oss from 4.24.4 to 4.25.0 (#302) (@dependabot[bot], @owlstronaut)
+
+## [8.1.0](https://github.com/npm/hosted-git-info/compare/v8.0.2...v8.1.0) (2025-04-14)
+### Features
+* [`ef0865c`](https://github.com/npm/hosted-git-info/commit/ef0865cc5c28700f990bf25d919e2520c944cf55) [#288](https://github.com/npm/hosted-git-info/pull/288) add `HostedGitInfo.fromManifest` (#288) (@ljharb)
+### Chores
+* [`ac08fe8`](https://github.com/npm/hosted-git-info/commit/ac08fe89153d19d1fecbd1e5ce5014fad833134c) [#296](https://github.com/npm/hosted-git-info/pull/296) bump @npmcli/template-oss from 4.23.6 to 4.24.3 (#296) (@dependabot[bot], @npm-cli-bot)
+
+## [8.0.2](https://github.com/npm/hosted-git-info/compare/v8.0.1...v8.0.2) (2024-11-21)
+### Bug Fixes
+* [`cc004ba`](https://github.com/npm/hosted-git-info/commit/cc004bae62d17b90c2fc889fcde5afbcac2fc508) [#280](https://github.com/npm/hosted-git-info/pull/280) even better regex for host fragment (#280) (@wraithgar)
+
+## [8.0.1](https://github.com/npm/hosted-git-info/compare/v8.0.0...v8.0.1) (2024-11-20)
+### Bug Fixes
+* [`e47b7e4`](https://github.com/npm/hosted-git-info/commit/e47b7e476199820446483aefa0525d4726e49450) [#274](https://github.com/npm/hosted-git-info/pull/274) break up greedy host fragment parsing regex (#274) (@wraithgar)
+### Chores
+* [`3d55d13`](https://github.com/npm/hosted-git-info/commit/3d55d1316d1b323b1402ad2c642c6d1f37249058) [#277](https://github.com/npm/hosted-git-info/pull/277) fix workflows for new backport branch (#277) (@wraithgar)
+* [`b3e455f`](https://github.com/npm/hosted-git-info/commit/b3e455fd7d66c2c967dba0cc624db8ed142bb86f) [#273](https://github.com/npm/hosted-git-info/pull/273) bump @npmcli/template-oss from 4.23.3 to 4.23.4 (#273) (@dependabot[bot], @npm-cli-bot)
+
+## [8.0.0](https://github.com/npm/hosted-git-info/compare/v7.0.2...v8.0.0) (2024-09-03)
+### ⚠️ BREAKING CHANGES
+* `hosted-git-info` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`967d930`](https://github.com/npm/hosted-git-info/commit/967d930a3a2adb8b0b55c9d8ddfa1eeb9470f3e1) [#268](https://github.com/npm/hosted-git-info/pull/268) align to npm 10 node engine range (@hashtagchris)
+### Chores
+* [`20551b0`](https://github.com/npm/hosted-git-info/commit/20551b02dffa5fdb56d9b89b3521c016c4924ace) [#268](https://github.com/npm/hosted-git-info/pull/268) run template-oss-apply (@hashtagchris)
+* [`9a3c062`](https://github.com/npm/hosted-git-info/commit/9a3c062a74dba37c6958a00ee22eb9207d45aefc) [#265](https://github.com/npm/hosted-git-info/pull/265) bump @npmcli/eslint-config from 4.0.5 to 5.0.0 (@dependabot[bot])
+* [`8f0fa04`](https://github.com/npm/hosted-git-info/commit/8f0fa04d0fba8d6a2467acc648a2f568f3baa7ed) [#266](https://github.com/npm/hosted-git-info/pull/266) postinstall for dependabot template-oss PR (@hashtagchris)
+* [`e0fe523`](https://github.com/npm/hosted-git-info/commit/e0fe523d96dc023b8e6750aa458b0d816673cb49) [#266](https://github.com/npm/hosted-git-info/pull/266) bump @npmcli/template-oss from 4.23.1 to 4.23.3 (@dependabot[bot])
+
+## [7.0.2](https://github.com/npm/hosted-git-info/compare/v7.0.1...v7.0.2) (2024-05-04)
+
+### Bug Fixes
+
+* [`682fa35`](https://github.com/npm/hosted-git-info/commit/682fa356278e342b93361bb61cfb0e598011b61f) [#249](https://github.com/npm/hosted-git-info/pull/249) linting: no-unused-vars (@lukekarrys)
+
+### Chores
+
+* [`f33287c`](https://github.com/npm/hosted-git-info/commit/f33287c39772f714b41c2d32a5cb9e98b0d00c6f) [#249](https://github.com/npm/hosted-git-info/pull/249) bump @npmcli/template-oss to 4.22.0 (@lukekarrys)
+* [`7bbdfd8`](https://github.com/npm/hosted-git-info/commit/7bbdfd8a564ddd5952fd245c38193af17e6a8d2c) [#248](https://github.com/npm/hosted-git-info/pull/248) chore: postinstall for dependabot template-oss PR (@lukekarrys)
+* [`0d4310e`](https://github.com/npm/hosted-git-info/commit/0d4310e90809efa2c7f5be586709c821d432a551) [#249](https://github.com/npm/hosted-git-info/pull/249) postinstall for dependabot template-oss PR (@lukekarrys)
+* [`2efc69b`](https://github.com/npm/hosted-git-info/commit/2efc69beca342455f1113625c66157f3f5c53af4) [#248](https://github.com/npm/hosted-git-info/pull/248) bump @npmcli/template-oss from 4.21.3 to 4.21.4 (@dependabot[bot])
+
+## [7.0.1](https://github.com/npm/hosted-git-info/compare/v7.0.0...v7.0.1) (2023-09-13)
+
+### Bug Fixes
+
+* [`d7bac33`](https://github.com/npm/hosted-git-info/commit/d7bac33726d6a65788d16e3314f52449f0da58c4) [#213](https://github.com/npm/hosted-git-info/pull/213) remove sourcehut bugstemplate (#213) (@vladh)
+
+## [7.0.0](https://github.com/npm/hosted-git-info/compare/v6.1.1...v7.0.0) (2023-08-14)
+
+### ⚠️ BREAKING CHANGES
+
+* support for node 14 has been removed
+
+### Bug Fixes
+
+* [`f9f7fde`](https://github.com/npm/hosted-git-info/commit/f9f7fde1385d3f99ed7a52b9d4b079d8074fc99f) [#209](https://github.com/npm/hosted-git-info/pull/209) use lru-cache named export (@lukekarrys)
+* [`c98e908`](https://github.com/npm/hosted-git-info/commit/c98e90807775bf5c306a30426d7f6c6ebe9842d5) [#209](https://github.com/npm/hosted-git-info/pull/209) drop node14 support (@lukekarrys)
+
+### Dependencies
+
+* [`ecdd7de`](https://github.com/npm/hosted-git-info/commit/ecdd7decf24f66297ca5f459b4f1f36d41352e23) [#209](https://github.com/npm/hosted-git-info/pull/209) bump lru-cache from 7.18.3 to 10.0.1
+
+## [6.1.1](https://github.com/npm/hosted-git-info/compare/v6.1.0...v6.1.1) (2022-10-27)
+
+### Bug Fixes
+
+* [`f03bfbd`](https://github.com/npm/hosted-git-info/commit/f03bfbd3022c8f6283a991ff879ed97704ac35fa) [#176](https://github.com/npm/hosted-git-info/pull/176) only correct protocols when called from githost (@lukekarrys)
+
+## [6.1.0](https://github.com/npm/hosted-git-info/compare/v6.0.0...v6.1.0) (2022-10-26)
+
+### Features
+
+* [`a44bd35`](https://github.com/npm/hosted-git-info/commit/a44bd35820eaa6878f13ee12eba5dca6425ea2bd) [#172](https://github.com/npm/hosted-git-info/pull/172) add separate static method for just parsing urls (@lukekarrys)
+
+## [6.0.0](https://github.com/npm/hosted-git-info/compare/v5.1.0...v6.0.0) (2022-10-12)
+
+### ⚠️ BREAKING CHANGES
+
+* `GitHost` now has a static `addHost` method to use instead of manually editing the object from `lib/git-host-info.js`.
+* set default git ref to HEAD
+* `hosted-git-info` is now compatible with the following semver range for node: `^14.17.0 || ^16.13.0 || >=18.0.0`
+
+### Features
+
+* [`9e0ce62`](https://github.com/npm/hosted-git-info/commit/9e0ce62b9aadb2a9cfe8999e96b004a5de4edfdf) [#142](https://github.com/npm/hosted-git-info/pull/142) refactor (@lukekarrys)
+* [`89155e8`](https://github.com/npm/hosted-git-info/commit/89155e8799369f20ae71713f64e3d0f664192a58) set default git ref to HEAD (@darcyclarke)
+* [`9ed9c38`](https://github.com/npm/hosted-git-info/commit/9ed9c38002f899ad2628f96b27b2ec9fecb4662f) [#162](https://github.com/npm/hosted-git-info/pull/162) postinstall for dependabot template-oss PR (@lukekarrys)
+
+### Bug Fixes
+
+* [`61ca7fb`](https://github.com/npm/hosted-git-info/commit/61ca7fb8f003299693e23f351eea589c38a3602c) [#152](https://github.com/npm/hosted-git-info/pull/152) parse branch names containing @ (@lukekarrys)
+* [`3cd4a98`](https://github.com/npm/hosted-git-info/commit/3cd4a9881e20d3a59bf3bb470661a29208824dd6) ignore colons after hash when correcting scp urls (@lukekarrys)
+
+## [5.1.0](https://github.com/npm/hosted-git-info/compare/v5.0.0...v5.1.0) (2022-08-09)
+
+
+### Features
+
+* add method to get an edit link to a file ([ad02952](https://github.com/npm/hosted-git-info/commit/ad02952f89fbdc99e67ae0d5308029395bde3331))
+
+
+### Bug Fixes
+
+* add comments to empty catch blocks for linting ([70a770d](https://github.com/npm/hosted-git-info/commit/70a770d1202128e15887d69dfd5c930e4ff29a00))
+
+## [5.0.0](https://www.github.com/npm/hosted-git-info/compare/v4.1.0...v5.0.0) (2022-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* this drops support for node 10 and non-LTS versions of node 12 and node 14
+
+### Bug Fixes
+
+* move files to lib ([a3f4836](https://www.github.com/npm/hosted-git-info/commit/a3f4836ba0a75b355c004e1991e8dd1e6321a983))
+
+
+* @npmcli/template-oss@2.9.2 ([c42e1f2](https://www.github.com/npm/hosted-git-info/commit/c42e1f216542ead9d0d328704c5db02204f15ce8))
+
+
+### Dependencies
+
+* bump lru-cache from 6.0.0 to 7.5.1 ([#128](https://www.github.com/npm/hosted-git-info/issues/128)) ([5b0b3b5](https://www.github.com/npm/hosted-git-info/commit/5b0b3b50bd36f659037e3b82a7ff47b0eff3b9f9))
+
 ## [4.0.0](https://github.com/npm/hosted-git-info/compare/v3.0.7...v4.0.0) (2021-03-09)
 
 
